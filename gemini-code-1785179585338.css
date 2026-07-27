@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #96216d;
+    background-image: url(blue-flames.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 30px;
+    margin: 0;
+    touch-action: manipulation;
+}
+
+#board {
+    width: 90vw;
+    height: 90vw;
+    max-width: 360px;
+    max-height: 360px;
+    background-color: rgb(228, 228, 228);
+    border: 5px solid #96216d;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+#board img {
+    width: 33.33%;
+    height: 33.33%;
+    border: 1px solid #3c3c3c;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 20px;
+    background-color: #96216d;
+    color: aliceblue;
+    border: none;
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
